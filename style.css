@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+.logo span {
+    color: yellow;
+    font-size: 30px;
+    
+}
+.navbar ul {
+    margin-left: 900px;
+    list-style: none;
+    text-decoration: none;
+}
+.navbar ul li{
+    display: inline;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover{
+    color: white;
+    transition: .3s;
+}
+
+input{
+
+    width: 40%;
+    padding: 15px;
+    
+}
+
+.searchbar{
+
+    margin: 50px;
+    text-align: center;
+}
+
+.product1{
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 7px;
+    display: inline-block;
+    width: 255px;
+}
+.product2{
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 7px;
+    display: inline-block;
+    width: 252px;
+}
+.product3{
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 7px;
+    display: inline-block;
+    width: 229px;
+}
+
+.product1:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+.product2:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+.product3:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+
+.toys{
+
+    text-align: center;
+}
+
+.contact{
+
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+button{
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    background-color: aqua;
+    color: black;
+    border: none;
+}
+
+button:hover{
+    animation: bounce 1s infinite;
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
